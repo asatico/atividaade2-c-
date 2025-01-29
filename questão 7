@@ -20,7 +20,7 @@ namespace ALEM_DE_PRETO_E_SURDO
 			float num2 = float.Parse(Console.ReadLine());
 			
 			
-			float resultado = num1 - num2  ;
+			float resultado = num2 - num1  ;
 		
 			
 			
