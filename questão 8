@@ -1,0 +1,33 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aluno_Manha
+ * Date: 24/01/2025
+ * Time: 10:35
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace ALEM_DE_PRETO_E_SURDO
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Escreva um número:");
+			float num1 = float.Parse(Console.ReadLine());
+			
+			
+			float resultado = Math.Abs(num1);
+		
+		
+			
+			
+			Console.WriteLine("O valor absoluto de " + num1 +  " é: " +resultado );
+			
+			
+			Console.Write("PRESSIONE ALGO PARA FECHAR . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
