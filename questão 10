@@ -9,6 +9,6 @@ class Program
 
         int resto = numero % 2;
 
-        Console.WriteLine($"O resto da divisão de {numero} por 2 é {resto}.");
+        Console.WriteLine("O resto da divisão de numero por 2 é resto.");
     }
 }
