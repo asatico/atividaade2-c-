@@ -1,0 +1,30 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aluno_Manha
+ * Date: 24/01/2025
+ * Time: 10:35
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace ALEM_DE_PRETO_E_SURDO
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Escreva um número:");
+			float num1 = Convert.ToInt32(Console.ReadLine());
+			
+			float soma = num1 * num1;
+		
+			
+			Console.WriteLine("O quadrado do número é: " + soma);
+			
+			
+			Console.Write("PRESSIONE ALGO PARA FECHAR . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
