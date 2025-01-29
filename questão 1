@@ -1,0 +1,31 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aluno_Manha
+ * Date: 24/01/2025
+ * Time: 10:35
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace ALEM_DE_PRETO_E_SURDO
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Escreva um número:");
+			int num1 = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Escreva um outro número:");
+			int num2 = Convert.ToInt32(Console.ReadLine());
+			
+			int soma = num1 + num2;
+			
+			Console.WriteLine("A soma dos números sao: " + soma);
+			
+			
+			Console.Write("PRESSIONE ALGO PARA FECHAR . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
