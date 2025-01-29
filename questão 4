@@ -15,7 +15,7 @@ namespace ALEM_DE_PRETO_E_SURDO
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Escreva um número:");
-			float num1 = Convert.ToInt32(Console.ReadLine());
+			float num1 = float.parse(Console.ReadLine());
 			
 			float soma = num1 * num1;
 		
