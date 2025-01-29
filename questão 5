@@ -16,7 +16,7 @@ namespace ALEM_DE_PRETO_E_SURDO
 		{
 			Console.WriteLine("Escreva um número:");
 			float num1 = float.Parse(Console.ReadLine());
-			Console.WriteLine("Escreva outro número:");
+			Console.WriteLine("Escreva outro número para dividir o primeiro:");
 			float num2 = float.Parse(Console.ReadLine());
 		
 			
@@ -24,7 +24,7 @@ namespace ALEM_DE_PRETO_E_SURDO
 			
 			
 			
-			Console.WriteLine("O quadrado do número é: " + soma);
+			Console.WriteLine("O número dividido por "+ num2 + " é: " + soma);
 			
 			
 			Console.Write("PRESSIONE ALGO PARA FECHAR . . . ");
